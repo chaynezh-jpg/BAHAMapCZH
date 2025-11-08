@@ -1,9 +1,64 @@
 body {
+  font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(250, 238, 223, 0.9);
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Trattatello', 'Luminari', fantasy;
+    font-size: 36px;
+    color: #240503;
+}
+h3 {
+  font-family: 'Luminari', 'Georgia', serif;
+  font-size: 20px;
+  color: #240503;
+}
+p {
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  color: #240503;
+}
+h4 {
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  color: #240503;
+  position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(250, 238, 223, 0.9);
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 #map {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%; }
+#button1 {
+  padding: 8px 12px;
+  background: rgba(250, 238, 223, 0.9);
+  color: #240503;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  bottom: 20px;
+  right: 20px;
+}
+
+#button1:hover {
+  background: #640c63;
+}
+.mapboxgl-canvas-container { cursor: url(https://64.media.tumblr.com/438fbaa62535123bdd29acaeb74783a6/150751567e06154d-68/s75x75_c1/30fc8c2bc39fa190e0651ffb17a9815b1526a8ec.gifv), auto !important }
